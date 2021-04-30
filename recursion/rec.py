@@ -6,7 +6,7 @@ def rec(n):
     return n+rec(n-1)
 print(rec(4))
 
-
+# ----------simple recursion as given in the sheet
 
 def one(n):
     if n>0:
