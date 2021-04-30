@@ -1,5 +1,5 @@
 def ncr(n,r):
-    return (fact(n)/(fact(r)*fact(n-r)))
+    return (fact(n)//(fact(r)*fact(n-r)))
 
 def fact(n):
     if n==0:
